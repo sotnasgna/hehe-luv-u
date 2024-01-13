@@ -1,0 +1,50 @@
+/** Style sheet for my simpery website **/
+
+/********** 1. BOX MODEL FIX **********/
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+
+body { 
+	background-color: #F7F7F7;
+	position: relative;
+
+ }
+
+
+/********** 2. CLEAR FIX **********/
+
+.row:before,
+.row:after {
+	content: " ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+
+
+/********** 2. CLEAR FIX **********/
+
+body {
+	background-image: url(img/power.jpg);
+	background-size: 1vw;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
